@@ -1,9 +1,9 @@
 import logo from "../assets/logo.png"
-
+import roadmap_bg from "../assets/roadmap_bg.png"
 
 function RoadMap() {
   return (
-    <div className="z-0 bg-roadmap-image pt-[80vw] sm:pt-[50vw] xmd:pt-[38vw] md:pt-[40vw] xl:pt-[20vw] bg-top relative flex flex-col items-center">
+    <div className="z-0 bg-[url('/assets/roadmap_bg.png')] pt-[80vw] sm:pt-[50vw] xmd:pt-[38vw] md:pt-[40vw] xl:pt-[20vw] bg-top relative flex flex-col items-center"  style={{ backgroundImage: `url(${roadmap_bg})` }}>
        
       {/* roadmap text */}
       <div className="">

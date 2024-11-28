@@ -4,11 +4,12 @@ import hero_letters from "../assets/hero_letters.png"
 import sun_hero from "../assets/sun_hero.png"
 import moon_hero from "../assets/moon_hero.png"
 import About from "./About"
+import hero_bg from "../assets/hero_bg.png"
 
 function Hero() {
 
   return (
-    <div className="flex flex-col items-center bg-hero-image pt-[2vw]">
+    <div className="flex flex-col bg-[url('/assets/hero_bg.png')] items-center pt-[2vw]" style={{ backgroundImage: `url(${hero_bg})` }}>
  
         {/* menu and logo */}
         <div className="w-[90vw] flex justify-between mx-[5vw]">
